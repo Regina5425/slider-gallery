@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+				<div class="gallery__img gallery__img--1">
+					<img src="img/pic1.jpg" alt="pic" />
+				</div>
+				<div class="gallery__img gallery__img--2">
+					<img src="img/pic2.jpg" alt="pic" />
+				</div>
+				<div class="gallery__img gallery__img--3">
+					<img src="img/pic3.jpg" alt="pic" />
+				</div>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-reset btn--prev" onclick="clickLeft()">
+          <img src="img/left-arrow.svg" alt="arrow" />
+        </button>
+        <button class="btn btn-reset btn--next" onclick="clickRight()">
+          <img src="img/left-arrow.svg" alt="arrow" />
+        </button>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
